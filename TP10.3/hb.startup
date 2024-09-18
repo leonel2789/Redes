@@ -1,0 +1,5 @@
+hb.startup                                               
+#Asignacion IP
+ip a add 200.3.124.1/26 dev eth0
+#Asignacion Gateway
+ip route add default via 200.3.124.60

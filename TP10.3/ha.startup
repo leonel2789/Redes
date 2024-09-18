@@ -1,0 +1,5 @@
+#Asignacion IP
+ip a add 170.16.128.1/17 dev eth0
+#Asignacion Gateway 
+ip route add default via 170.16.255.252
+
